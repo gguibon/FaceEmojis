@@ -1,3 +1,11 @@
+# FaceEmojis: Emoji Embeddings and Clusters of Face Emojis
+
+FaceEmojis is a continuous bag-of-words emoji embeddings from tweets and emotion clusters of face emojis. One of its purpose is to be used in emoji recommendation systems to improve them.
+
+This resource have been created fully automatically from raw tweets to fine-grained clusters of emojis using word2vec and spectral clustering algorithms.
+
+The resulting embedding model and the clusters are available. The resource files contain the code to replicate the methodology, the models learnt, the visualization files, and the code to replicate the visualization process.
+
 # Resources
 
 This is a first readme for the resoures but we plan to make if available on ORTOLANG (part of CLARIN) with better documentation.
@@ -13,37 +21,3 @@ All the visualization files are in the "visualization" folder.
 You can visualize and recompute clusters and tsne visualization by going to the "code" folder.
 See the examples.sh file for examples of usages. Or just use the -h option in any python script.
 
-## Folder structure
-
-.
-├── code 
-│   ├── data_util
-│   │   ├── df_emoji_faces_std.tsv
-│   │   ├── emojichart_v5.0.tsv
-│   │   ├── emojione_32px (lot of files)
-│   │   └── ready_data
-│   │       └── tweets_df_echo_ssth_1M_raw.ls # our list of tweets. However it is not legal to give as is. But we will give a full list of tweets id (we plan to expand the corpus for the final paper) and the code to get them by the Twitter API.
-│   ├── examples.sh
-│   ├── w2v_load.py
-│   └── w2v.py
-├── models
-│   ├── model_native63_cbow.gensim   #### the main embedding resource ####
-│   ├── model_native63_cbow.gensim.syn1neg.npy
-│   ├── model_native63_cbow.gensim.wv.syn0.npy
-│   ├── model_native63_skipgram.gensim
-│   ├── model_native63_skipgram.gensim.syn1neg.npy
-│   ├── model_native63_skipgram.gensim.wv.syn0.npy
-│   └── model_pohl_full.w2v
-├── readme.md
-└── visu
-    ├── clusters_native63_cbow.html   #### the best clusters we obtained ####
-    ├── clusters_native63_skipgram.html
-    ├── clusters_pohl_full.html
-    ├── tw_native63_cbow_size0.1.html
-    ├── tw_native63_cbow_size4.html
-    ├── tw_native63_skipgram_size0.1.html
-    ├── tw_native63_skipgram_size4.html
-    ├── tw_pohl_full_size0.3.html
-    └── tw_pohl_full_size4.html
-
-6 directories, 2689 files
