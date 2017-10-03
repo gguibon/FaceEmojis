@@ -35,7 +35,7 @@ See the examples.sh file for examples of usages. Or just use the -h option in an
 │   ├── model_native63_skipgram.gensim.wv.syn0.npy
 │   └── model_pohl_full.w2v
 ├── readme.md
-└── visu
+└── visualization
     ├── clusters_native63_cbow.html   #### the best clusters we obtained ####
     ├── clusters_native63_skipgram.html
     ├── clusters_pohl_full.html
