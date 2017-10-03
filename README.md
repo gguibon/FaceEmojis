@@ -12,7 +12,7 @@ This is a first readme for the resoures but we plan to make if available on ORTO
 
 ## Resource 1: Embeddings models
 
-Embedding models are in the "models" folder. The best model described in the paper is "model_native63_cbow.gensim".
+Embedding models are in the ["models" folder](https://drive.google.com/open?id=0By_QEvK1tPkQUFF2V2JFRV9ZUGc). The best model described in the paper is "model_native63_cbow.gensim".
 
 ## Resource 2: Clusters (and visualization)
 
