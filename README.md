@@ -1,6 +1,7 @@
 # FaceEmojis: Emoji Embeddings and Clusters of Face Emojis
 
 This is the source code from a paper we presented to CICLing 2018:
+
 From emoji To Categorical Emoji Prediction, Guibon et al., 2018. CICLing, Hanoi 
 
 FaceEmojis is a continuous bag-of-words emoji embeddings from tweets and emotion clusters of face emojis. One of its purpose is to be used in emoji recommendation systems to improve them.
