@@ -38,3 +38,4 @@ print( word2vec.FAST_VERSION )
 from tempfile import mkstemp
 
 model.save(args.out)
+ 

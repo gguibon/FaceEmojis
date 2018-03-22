@@ -279,14 +279,12 @@ def get_clusters():
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		</head>
 		<body>
-
 		<div class="container">
 		<br/>
 		<div class="row">
 		INSERT_DIVS_HERE
 		</div>
 		</div>
-
 		</body>
 		</html>"""
 	html = html.replace("INSERT_DIVS_HERE", "".join(divs))
