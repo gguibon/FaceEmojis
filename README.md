@@ -1,6 +1,15 @@
 # FaceEmojis: Emoji Embeddings and Clusters of Face Emojis
 
-This is the source code from a paper we presented to CICLing 2018:
+This is the source code from a paper we presented to CICLing 2018, please cite this paper if you find this work useful :
+
+```
+@inproceedings{guibon2018emoji,
+  title={From Emoji Usage to Categorical Emoji Prediction},
+  author={Guibon, Ga{\"e}l and Ochs, Magalie and Bellot, Patrice},
+  booktitle={19th International Conference on Computational Linguistics and Intelligent Text Processing (CICLING 2018)},
+  year={2018}
+}
+```
 
 [From emoji To Categorical Emoji Prediction, Guibon et al., 2018. CICLing, Hanoi](https://hal-amu.archives-ouvertes.fr/hal-01871045v1) 
 
